@@ -25,12 +25,12 @@ function Home(props) {
  const inputReturn = ()=>{
   //  const textx=text;
   //  const conx=con;
-  //  console.log(textx);
-  //  console.log(conx);
+ 
      const details = {
        text:text,
        content:con
      }
+     
      setNotes(notes=>[...notes,details]);
      console.log(text);
      console.log(con);
