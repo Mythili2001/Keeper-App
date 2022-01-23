@@ -1,0 +1,48 @@
+.notes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    grid-gap: 5vw;
+    margin-top:2%;
+    margin-left:17%;
+    margin-right:17%;
+    font-size:24px;
+}
+.notesTitle{
+    display: flex;
+    margin-left: 6%;
+    flex-direction: column;
+}
+.notesContent{
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    margin-left: 6%;
+    font-weight: 12px;
+}
+.eachNotes{
+    grid-template-columns: repeat(3,1fr);
+   
+    padding: 1%;
+    margin-top:4%;
+    border-radius:5%;
+    box-shadow:  4px 4px 8px 8px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+*{
+    font-family: Montserrat,sans-serif;
+}
+#delete{
+    margin-left:40%;
+    margin-right: 8%;
+    margin-bottom: 3%;
+    font-size: large;
+    color: rgb(247, 197, 71);
+    cursor: pointer;
+    font-weight: 900;
+    padding: 8px;
+    border: 0;
+}
